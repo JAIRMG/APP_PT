@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_6f510084e90218e040331b059d4f9cec47f763fb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.3.0\73c49077166faa4c3c0059c5f583d1d7bd1475fe\core-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="73c49077166faa4c3c0059c5f583d1d7bd1475fe">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\transforms\dex\debug\folders\1000\10\core-3.3.0_8f72243f70b2befedccaad96f7970561360aea79\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\pc\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.3.0\73c49077166faa4c3c0059c5f583d1d7bd1475fe\core-3.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="73c49077166faa4c3c0059c5f583d1d7bd1475fe">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\pre-dexed\debug\core-3.3.0_8f72243f70b2befedccaad96f7970561360aea79.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\pc\.android\build-cache\14c91e4bc7e29da9d16eeaf6de09834957ead976\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\pre-dexed\debug\classes_d285814beb77064e7914989fc284dac899302644.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\14c91e4bc7e29da9d16eeaf6de09834957ead976\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d285814beb77064e7914989fc284dac899302644\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\09219873fd9a721e03835be866643cd14a5a3343\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5be48fa1fa0c2010c027589d59172fb5fc06d8a7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\d9c3b42d33c9318a7cf37436ef896e51b93e514b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_80f6eb76471589525ba14771fc721a73bd95ba59\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\pc\.android\build-cache\09219873fd9a721e03835be866643cd14a5a3343\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\pre-dexed\debug\classes_5be48fa1fa0c2010c027589d59172fb5fc06d8a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\pc\.android\build-cache\a69967b0de5e346deababb4c575aa3d71b71fbe5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\pre-dexed\debug\classes_d71affbaf50572895c8815db199a91112d32a497.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\f1338bbecc2c8a5a9c26429e4c651e05acd36e91\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a3ab201a860b32c8f8539f698eb598569e3adf63\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\a69967b0de5e346deababb4c575aa3d71b71fbe5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d71affbaf50572895c8815db199a91112d32a497\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_7386005c60a4ebf2a4891b6289e1e0ca864038a9\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\pc\.android\build-cache\f1338bbecc2c8a5a9c26429e4c651e05acd36e91\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\pre-dexed\debug\classes_a3ab201a860b32c8f8539f698eb598569e3adf63.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\pc\.android\build-cache\d9c3b42d33c9318a7cf37436ef896e51b93e514b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\pre-dexed\debug\classes_80f6eb76471589525ba14771fc721a73bd95ba59.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\pc\.android\build-cache\c425aed4a8f6404a94152f1eb24265c5249e456d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\pre-dexed\debug\classes_7d5d44a8527276801258c89de2c3a0a334e15206.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_942f8b12d6ef94e1e2e6dfb9cdfa5268f53229c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\e049acb8e9af98527766cca98c22335517f150d1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3b0f4b689262c2cec94126a9f9e9afd4f54b2936\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\pc\.android\build-cache\42b7add12d52f4efbe9f1f0d9bc59e8fd29da51d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="807751a24cf96566fd8675517c94d8463cf364db">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\pre-dexed\debug\classes_f33072be08d2acc50befc8c7c88e20723e98988a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\pc\.android\build-cache\bf5b98a8aaa2861213d4c90f2fb489aec7bb81b1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="e09663005d70dcedff0bb77211b9ac52d8b69421">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\pre-dexed\debug\classes_84cbd49754a826a75cf5cb1a15a848febeb06135.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\pc\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_942f8b12d6ef94e1e2e6dfb9cdfa5268f53229c9.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\c425aed4a8f6404a94152f1eb24265c5249e456d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7d5d44a8527276801258c89de2c3a0a334e15206\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\bf5b98a8aaa2861213d4c90f2fb489aec7bb81b1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="e09663005d70dcedff0bb77211b9ac52d8b69421">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_84cbd49754a826a75cf5cb1a15a848febeb06135\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\42b7add12d52f4efbe9f1f0d9bc59e8fd29da51d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="807751a24cf96566fd8675517c94d8463cf364db">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f33072be08d2acc50befc8c7c88e20723e98988a\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\pc\.android\build-cache\e049acb8e9af98527766cca98c22335517f150d1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\pre-dexed\debug\classes_3b0f4b689262c2cec94126a9f9e9afd4f54b2936.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\89c55143b283f991c28fa941c1db8a40c2d5bdbe\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d5d116d94e10855633632161996421e0090bb4fc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\981833bc1db5dd6dd189abfa6c5721dbc2534f20\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_321a78bbdee13d323faf1ce319b6080b82b2a6fb\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\pc\.android\build-cache\cb88c931fa35c7a340439ccc5a25f170d4f7d032\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\pre-dexed\debug\classes_fc54187ab3df9bd26de0494883ad0218868fafd6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\pc\.android\build-cache\981833bc1db5dd6dd189abfa6c5721dbc2534f20\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\pre-dexed\debug\classes_321a78bbdee13d323faf1ce319b6080b82b2a6fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\pc\.android\build-cache\89c55143b283f991c28fa941c1db8a40c2d5bdbe\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\pre-dexed\debug\classes_d5d116d94e10855633632161996421e0090bb4fc.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\cb88c931fa35c7a340439ccc5a25f170d4f7d032\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fc54187ab3df9bd26de0494883ad0218868fafd6\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\pc\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_b86eae77a1e09112bae81fa878e68ae3f038dd36.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_b86eae77a1e09112bae81fa878e68ae3f038dd36\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\0557b7bd7d0a1971131eaf82c18302dd2f710525\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_75fc7bad29ff7bad3ce3f7620037d5915b0d67f7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\52e40ef3ed71f66ed5dcd284a3bd9e6870e3aac8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9b7d3810563465bb9dbfc29710a5f5dd91cf555a\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\pc\.android\build-cache\52e40ef3ed71f66ed5dcd284a3bd9e6870e3aac8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\pre-dexed\debug\classes_9b7d3810563465bb9dbfc29710a5f5dd91cf555a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\pc\.android\build-cache\0557b7bd7d0a1971131eaf82c18302dd2f710525\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\pre-dexed\debug\classes_75fc7bad29ff7bad3ce3f7620037d5915b0d67f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\pc\.android\build-cache\d554cea8cfcff99b59c55b9c8b84b59a03608974\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\pre-dexed\debug\classes_7dec4034c4c017a85d10f01b97c8bf3222592ba4.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\d554cea8cfcff99b59c55b9c8b84b59a03608974\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7dec4034c4c017a85d10f01b97c8bf3222592ba4\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\pc\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\pre-dexed\debug\bolts-applinks-1.4.0_d98d961efc93782bf0eb46f891b3186277801b12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\pc\.gradle\caches\modules-2\files-2.1\com.github.PhilJay\MPAndroidChart\v3.0.2\5d4eb08a326bdbd7fbbddc769666898c9936b282\MPAndroidChart-v3.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="5d4eb08a326bdbd7fbbddc769666898c9936b282">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\pre-dexed\debug\MPAndroidChart-v3.0.2_1e5b44de34fe4d4ccc839ab527ce2fb5867ae71b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.gradle\caches\modules-2\files-2.1\com.github.PhilJay\MPAndroidChart\v3.0.2\5d4eb08a326bdbd7fbbddc769666898c9936b282\MPAndroidChart-v3.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="5d4eb08a326bdbd7fbbddc769666898c9936b282">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\transforms\dex\debug\folders\1000\10\MPAndroidChart-v3.0.2_1e5b44de34fe4d4ccc839ab527ce2fb5867ae71b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b4cda3746767e5666cdb5314c2016a2859681548">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_09ca3a72b48716c9594de41eb1147ce2d9141d4a\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\pc\.android\build-cache\c5bd63511bd52994ed04e20f3128d107032713a7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\pre-dexed\debug\classes_e1753abdfdb9765e9ded6a4c0cac50ff86a1b9c7.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\c5bd63511bd52994ed04e20f3128d107032713a7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e1753abdfdb9765e9ded6a4c0cac50ff86a1b9c7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_d98d961efc93782bf0eb46f891b3186277801b12\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\pc\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_6f510084e90218e040331b059d4f9cec47f763fb.jar" />
+    </item>
+
+</items>

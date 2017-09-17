@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.example.terminal.proyecto.apppt.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        android:fadeScrollbars="false"
+        android:scrollbars="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical|center"
+                android:paddingTop="10dp"
+                android:layout_marginTop="40dp"
+                android:id="@+id/linear1">
+
+                <EditText
+                    android:id="@+id/nombreLogin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:gravity="left"
+                    android:ems="10"
+                    android:hint="Nombre"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:inputType="textPersonName"
+                    android:textColorLink="@color/colorPrimary" />
+
+                <EditText
+                    android:id="@+id/passwordLogin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:hint="Contraseña"
+                    android:inputType="textPassword"
+                    android:textColorLink="@color/colorPrimary"
+                    android:layout_below="@+id/nombreLogin"
+                    android:layout_marginTop="16dp" />
+
+                <com.facebook.login.widget.LoginButton
+                    android:id="@+id/login_button"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/passwordLogin"
+                    android:layout_centerHorizontal="true"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical|center"
+                android:paddingTop="10dp"
+                android:layout_below="@id/linear1"
+                android:layout_marginTop="10dp"
+                android:id="@+id/linear2">
+
+                <TextView
+                    android:id="@+id/registrate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Regístrate"
+                    android:clickable="true"
+                    android:onClick="click"
+                    android:layout_above="@+id/contraseña"/>
+
+                <TextView
+                    android:id="@+id/contraseña"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Olvide mi contraseña"
+                    android:clickable="true"
+                    android:onClick="click"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical|center"
+                android:paddingTop="10dp"
+                android:layout_below="@id/linear2"
+                android:layout_marginTop="10dp"
+                android:id="@+id/linear3">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="Iniciar"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/contraseña"
+                    android:layout_centerHorizontal="true"
+                    android:clickable="true"/>
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

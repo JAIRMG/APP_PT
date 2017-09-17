@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+    android:id="@+id/inicio"
+    android:icon="@drawable/com_facebook_button_icon_white"
+    android:title="@string/inicio" />
+    <item
+        android:id="@+id/curso"
+        android:icon="@drawable/messenger_bubble_small_white"
+        android:title="@string/curso" />
+    <item
+        android:id="@+id/practicar"
+        android:icon="@drawable/com_facebook_button_like_icon_selected"
+        android:title="@string/practicar" />
+    <item
+        android:id="@+id/informacion"
+        android:icon="@drawable/messenger_button_send_round_shadow"
+        android:title="@string/informacion" />
+
+
+</menu>

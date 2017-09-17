@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AppPT</string>
+    <string name="facebook_app_id">1464514900277048</string>
+    <string name="fb_login_protocol_scheme">fb1464514900277048</string>
+    <string name="inicio">Inicio</string>
+    <string name="practicar">Practicar</string>
+    <string name="curso">Curso</string>
+    <string name="informacion">Información</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

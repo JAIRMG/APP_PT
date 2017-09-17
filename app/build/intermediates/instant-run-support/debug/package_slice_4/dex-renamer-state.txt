@@ -1,0 +1,4 @@
+#Sat Sep 16 09:33:37 CDT 2017
+base.0=C\:\\Users\\pc\\Documents\\Jair\\Proyecto Terminal\\SistemaMovil\\AppPT\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_4
+renamed.0=classes.dex
+file.0=C\:\\Users\\pc\\Documents\\Jair\\Proyecto Terminal\\SistemaMovil\\AppPT\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_4\\classes.dex

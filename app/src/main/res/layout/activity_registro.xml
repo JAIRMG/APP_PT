@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.terminal.proyecto.apppt.registro">
+
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"> -->
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        android:fadeScrollbars="false"
+        android:scrollbars="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="40dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/linear_nombre">
+
+                <TextView
+                    android:id="@+id/nombreEtiqueta"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="left"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Nombre"/>
+
+                <EditText
+                    android:id="@+id/nombre"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:maxLines="1"
+                    android:singleLine="true"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="20dp"
+                android:layout_below="@+id/linear_nombre"
+                android:id="@+id/linear_apellido">
+
+
+                <TextView
+                    android:id="@+id/apellidoEtiqueta"
+                    android:layout_below="@+id/nombreEtiqueta"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Apellido"/>
+
+                <EditText
+                    android:id="@+id/apellido"
+                    android:layout_below="@+id/nombre"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right"
+                    android:paddingLeft="10dp"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:paddingRight="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="20dp"
+                android:layout_below="@+id/linear_apellido"
+                android:id="@+id/linear_usuario">
+
+
+                <TextView
+                    android:id="@+id/usuarioEtiqueta"
+                    android:layout_below="@+id/nombreEtiqueta"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Usuario"/>
+
+                <EditText
+                    android:id="@+id/usuario"
+                    android:layout_below="@+id/apellido"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right"
+                    android:paddingLeft="10dp"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:paddingRight="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="20dp"
+                android:layout_below="@+id/linear_usuario"
+                android:id="@+id/linear_correo">
+
+
+                <TextView
+                    android:id="@+id/correoEtiqueta"
+                    android:layout_below="@+id/usuarioEtiqueta"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Correo"/>
+
+                <EditText
+                    android:id="@+id/correo"
+                    android:layout_below="@+id/usuario"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right"
+                    android:paddingLeft="10dp"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:paddingRight="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="20dp"
+                android:layout_below="@+id/linear_correo"
+                android:id="@+id/linear_localidad">
+
+
+                <TextView
+                    android:id="@+id/localidadEtiqueta"
+                    android:layout_below="@+id/correoEtiqueta"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Localidad"/>
+
+                <Spinner
+                    android:layout_below="@+id/correo"
+                    android:id="@+id/localidad"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+                </Spinner>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="20dp"
+                android:layout_below="@+id/linear_localidad"
+                android:id="@+id/linear_edad">
+
+
+                <TextView
+                    android:id="@+id/edadEtiqueta"
+                    android:layout_below="@+id/localidadEtiqueta"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Edad"/>
+
+                <Spinner
+                    android:layout_below="@+id/usuario"
+                    android:id="@+id/edad"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+                </Spinner>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="20dp"
+                android:layout_below="@+id/linear_edad"
+                android:id="@+id/linear_genero">
+
+
+                <TextView
+                    android:id="@+id/generoEtiqueta"
+                    android:layout_below="@+id/edadEtiqueta"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Género"/>
+
+                <Spinner
+                    android:layout_below="@+id/usuario"
+                    android:id="@+id/genero"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+                </Spinner>
+
+            </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:layout_below="@+id/linear_genero"
+            android:id="@+id/linear_contrasenia1">
+
+
+            <TextView
+                android:id="@+id/contrasenia1Etiqueta"
+                android:layout_below="@+id/generoEtiqueta"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_gravity="left"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Contraseña"/>
+
+            <EditText
+                android:id="@+id/contrasenia1"
+                android:layout_below="@+id/genero"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:inputType="textPassword"
+                android:paddingLeft="10dp"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:paddingRight="10dp"/>
+
+
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="20dp"
+                android:layout_below="@+id/linear_contrasenia1"
+                android:id="@+id/linear_contrasenia2">
+
+
+                <TextView
+                    android:id="@+id/contrasenia2Etiqueta"
+                    android:layout_below="@+id/localidadEtiqueta"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Repetir contraseña"/>
+
+                <EditText
+                    android:id="@+id/contrasenia2"
+                    android:layout_below="@+id/edad"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right"
+                    android:maxLines="1"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"/>
+
+
+
+            </LinearLayout>
+
+
+
+                <Button
+                    android:id="@+id/botonRegistro"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_below="@id/linear_contrasenia2"
+                    android:text="Registrar"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"/>
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

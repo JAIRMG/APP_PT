@@ -1,0 +1,162 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:2:1-37:12
+	package
+		ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:3:5-50
+		INJECTED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:8:22-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:9:5-96
+	android:name
+		ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:9:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:10:5-97
+	android:name
+		ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.MEDIA_CONTENT_CONTROL
+ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:11:5-96
+	android:name
+		ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:11:22-77
+application
+ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:13:5-35:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.26.0] C:\Users\pc\.android\build-cache\bf5b98a8aaa2861213d4c90f2fb489aec7bb81b1\output\AndroidManifest.xml:28:5-48:19
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\pc\.android\build-cache\14c91e4bc7e29da9d16eeaf6de09834957ead976\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:customtabs:25.3.1] C:\Users\pc\.android\build-cache\42b7add12d52f4efbe9f1f0d9bc59e8fd29da51d\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:design:25.0.0] C:\Users\pc\.android\build-cache\f1338bbecc2c8a5a9c26429e4c651e05acd36e91\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\pc\.android\build-cache\09219873fd9a721e03835be866643cd14a5a3343\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\pc\.android\build-cache\0557b7bd7d0a1971131eaf82c18302dd2f710525\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\pc\.android\build-cache\d554cea8cfcff99b59c55b9c8b84b59a03608974\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.0.0] C:\Users\pc\.android\build-cache\c5bd63511bd52994ed04e20f3128d107032713a7\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\pc\.android\build-cache\d9c3b42d33c9318a7cf37436ef896e51b93e514b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\pc\.android\build-cache\cb88c931fa35c7a340439ccc5a25f170d4f7d032\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\pc\.android\build-cache\a69967b0de5e346deababb4c575aa3d71b71fbe5\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\pc\.android\build-cache\52e40ef3ed71f66ed5dcd284a3bd9e6870e3aac8\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\pc\.android\build-cache\89c55143b283f991c28fa941c1db8a40c2d5bdbe\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\pc\.android\build-cache\c425aed4a8f6404a94152f1eb24265c5249e456d\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\pc\.android\build-cache\e049acb8e9af98527766cca98c22335517f150d1\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:16:9-41
+	android:supportsRtl
+		ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:18:9-35
+	android:roundIcon
+		ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:17:9-54
+	android:allowBackup
+		ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:14:9-35
+	android:icon
+		ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:15:9-43
+	android:theme
+		ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:19:9-40
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:20:9-22:54
+	android:value
+		ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:22:13-52
+	android:name
+		ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:21:13-58
+activity#com.example.terminal.proyecto.apppt.MainActivity
+ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:24:9-30:20
+	android:name
+		ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:24:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:28:27-74
+activity#com.example.terminal.proyecto.apppt.registro
+ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:31:9-46
+	android:name
+		ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:31:19-43
+activity#com.example.terminal.proyecto.apppt.password
+ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:32:9-46
+	android:name
+		ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:32:19-43
+activity#com.example.terminal.proyecto.apppt.Menu
+ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:33:9-51
+	android:name
+		ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:33:19-39
+activity#com.example.terminal.proyecto.apppt.Practicar_activity
+ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:34:9-65
+	android:name
+		ADDED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml:34:19-53
+uses-sdk
+INJECTED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.facebook.android:facebook-android-sdk:4.26.0] C:\Users\pc\.android\build-cache\bf5b98a8aaa2861213d4c90f2fb489aec7bb81b1\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\pc\.android\build-cache\14c91e4bc7e29da9d16eeaf6de09834957ead976\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:customtabs:25.3.1] C:\Users\pc\.android\build-cache\42b7add12d52f4efbe9f1f0d9bc59e8fd29da51d\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:25.0.0] C:\Users\pc\.android\build-cache\f1338bbecc2c8a5a9c26429e4c651e05acd36e91\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\pc\.android\build-cache\09219873fd9a721e03835be866643cd14a5a3343\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\pc\.android\build-cache\0557b7bd7d0a1971131eaf82c18302dd2f710525\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\pc\.android\build-cache\d554cea8cfcff99b59c55b9c8b84b59a03608974\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.0.0] C:\Users\pc\.android\build-cache\981833bc1db5dd6dd189abfa6c5721dbc2534f20\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.0.0] C:\Users\pc\.android\build-cache\c5bd63511bd52994ed04e20f3128d107032713a7\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\pc\.android\build-cache\d9c3b42d33c9318a7cf37436ef896e51b93e514b\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\pc\.android\build-cache\cb88c931fa35c7a340439ccc5a25f170d4f7d032\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\pc\.android\build-cache\a69967b0de5e346deababb4c575aa3d71b71fbe5\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\pc\.android\build-cache\52e40ef3ed71f66ed5dcd284a3bd9e6870e3aac8\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\pc\.android\build-cache\89c55143b283f991c28fa941c1db8a40c2d5bdbe\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\pc\.android\build-cache\c425aed4a8f6404a94152f1eb24265c5249e456d\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\pc\.android\build-cache\e049acb8e9af98527766cca98c22335517f150d1\output\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.0.0] C:\Users\pc\.android\build-cache\f1338bbecc2c8a5a9c26429e4c651e05acd36e91\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pc\Documents\Jair\Proyecto Terminal\SistemaMovil\AppPT\app\src\main\AndroidManifest.xml
+activity#com.facebook.FacebookActivity
+ADDED from [com.facebook.android:facebook-android-sdk:4.26.0] C:\Users\pc\.android\build-cache\bf5b98a8aaa2861213d4c90f2fb489aec7bb81b1\output\AndroidManifest.xml:29:9-32:66
+	android:configChanges
+		ADDED from [com.facebook.android:facebook-android-sdk:4.26.0] C:\Users\pc\.android\build-cache\bf5b98a8aaa2861213d4c90f2fb489aec7bb81b1\output\AndroidManifest.xml:31:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-android-sdk:4.26.0] C:\Users\pc\.android\build-cache\bf5b98a8aaa2861213d4c90f2fb489aec7bb81b1\output\AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from [com.facebook.android:facebook-android-sdk:4.26.0] C:\Users\pc\.android\build-cache\bf5b98a8aaa2861213d4c90f2fb489aec7bb81b1\output\AndroidManifest.xml:30:13-57
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-android-sdk:4.26.0] C:\Users\pc\.android\build-cache\bf5b98a8aaa2861213d4c90f2fb489aec7bb81b1\output\AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-android-sdk:4.26.0] C:\Users\pc\.android\build-cache\bf5b98a8aaa2861213d4c90f2fb489aec7bb81b1\output\AndroidManifest.xml:33:19-68
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-android-sdk:4.26.0] C:\Users\pc\.android\build-cache\bf5b98a8aaa2861213d4c90f2fb489aec7bb81b1\output\AndroidManifest.xml:44:9-47:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-android-sdk:4.26.0] C:\Users\pc\.android\build-cache\bf5b98a8aaa2861213d4c90f2fb489aec7bb81b1\output\AndroidManifest.xml:46:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-android-sdk:4.26.0] C:\Users\pc\.android\build-cache\bf5b98a8aaa2861213d4c90f2fb489aec7bb81b1\output\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-android-sdk:4.26.0] C:\Users\pc\.android\build-cache\bf5b98a8aaa2861213d4c90f2fb489aec7bb81b1\output\AndroidManifest.xml:45:13-70
+meta-data#android.support.VERSION
+ADDED from [com.android.support:cardview-v7:25.3.1] C:\Users\pc\.android\build-cache\14c91e4bc7e29da9d16eeaf6de09834957ead976\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:customtabs:25.3.1] C:\Users\pc\.android\build-cache\42b7add12d52f4efbe9f1f0d9bc59e8fd29da51d\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\pc\.android\build-cache\09219873fd9a721e03835be866643cd14a5a3343\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\pc\.android\build-cache\0557b7bd7d0a1971131eaf82c18302dd2f710525\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\pc\.android\build-cache\d554cea8cfcff99b59c55b9c8b84b59a03608974\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\pc\.android\build-cache\d9c3b42d33c9318a7cf37436ef896e51b93e514b\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\pc\.android\build-cache\cb88c931fa35c7a340439ccc5a25f170d4f7d032\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\pc\.android\build-cache\a69967b0de5e346deababb4c575aa3d71b71fbe5\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\pc\.android\build-cache\52e40ef3ed71f66ed5dcd284a3bd9e6870e3aac8\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\pc\.android\build-cache\89c55143b283f991c28fa941c1db8a40c2d5bdbe\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\pc\.android\build-cache\c425aed4a8f6404a94152f1eb24265c5249e456d\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:cardview-v7:25.3.1] C:\Users\pc\.android\build-cache\14c91e4bc7e29da9d16eeaf6de09834957ead976\output\AndroidManifest.xml:24:9-31
+	android:name
+		ADDED from [com.android.support:cardview-v7:25.3.1] C:\Users\pc\.android\build-cache\14c91e4bc7e29da9d16eeaf6de09834957ead976\output\AndroidManifest.xml:23:9-47

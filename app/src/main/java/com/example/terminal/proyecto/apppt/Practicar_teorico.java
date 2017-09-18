@@ -65,36 +65,47 @@ public Practicar_teorico(){}
         listDataHeader = new ArrayList<>();
         listHash = new HashMap<>();
 
-        listDataHeader.add("EDMTDev");
-        listDataHeader.add("Android");
-        listDataHeader.add("Xamarin");
-        listDataHeader.add("UWP");
+        listDataHeader.add("Aritmética");
+        listDataHeader.add("Álgebra");
+        listDataHeader.add("Geometría");
+        listDataHeader.add("Trigonometría");
+        listDataHeader.add("Probabilidad");
 
-        List<String> edmtDev = new ArrayList<>();
-        edmtDev.add("This is Expandable ListView");
+        List<String> aritmetica = new ArrayList<>();
+        aritmetica.add("Decimales");
+        aritmetica.add("Naturales");
+        aritmetica.add("Enteros");
+        aritmetica.add("Fraccionarios");
 
-        List<String> androidStudio = new ArrayList<>();
-        androidStudio.add("Expandable ListView");
-        androidStudio.add("Google Map");
-        androidStudio.add("Chat Application");
-        androidStudio.add("Firebase ");
+        List<String> algebra = new ArrayList<>();
+        algebra.add("Ecuación de primer grado x+a=b");
+        algebra.add("Ecuación de primer grado (ax+b=cx+d)");
+        algebra.add("Ecuación de segundo grado");
+        algebra.add("Factorización");
 
-        List<String> xamarin = new ArrayList<>();
-        xamarin.add("Xamarin Expandable ListView");
-        xamarin.add("Xamarin Google Map");
-        xamarin.add("Xamarin Chat Application");
-        xamarin.add("Xamarin Firebase ");
+        List<String> geometria = new ArrayList<>();
+        geometria.add("Perímetros y áreas");
+        geometria.add("Volumén de cubos");
+        geometria.add("Prismas y pirámides");
+        geometria.add("Ecuación de la pendiente");
 
-        List<String> uwp = new ArrayList<>();
-        uwp.add("UWP Expandable ListView");
-        uwp.add("UWP Google Map");
-        uwp.add("UWP Chat Application");
-        uwp.add("UWP Firebase ");
+        List<String> trigonometria = new ArrayList<>();
+        trigonometria.add("Triángulos isósceles y equilateros");
+        trigonometria.add("Ángulos inscritos");
+        trigonometria.add("Triángulos rectángulos");
+        trigonometria.add("Teorema de Pitágoras");
 
-        listHash.put(listDataHeader.get(0), edmtDev);
-        listHash.put(listDataHeader.get(1), androidStudio);
-        listHash.put(listDataHeader.get(2), xamarin);
-        listHash.put(listDataHeader.get(3), uwp);
+        List<String> probabilidad = new ArrayList<>();
+        probabilidad.add("Triángulos isósceles y equilateros");
+        probabilidad.add("Ángulos inscritos");
+        probabilidad.add("Triángulos rectángulos");
+        probabilidad.add("Teorema de Pitágoras");
+
+        listHash.put(listDataHeader.get(0), aritmetica);
+        listHash.put(listDataHeader.get(1), algebra);
+        listHash.put(listDataHeader.get(2), geometria);
+        listHash.put(listDataHeader.get(3), trigonometria);
+        listHash.put(listDataHeader.get(4), probabilidad);
     }
 
 

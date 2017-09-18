@@ -12,6 +12,14 @@
         "source": "C:\\Users\\erika\\Pictures\\telematica\\Onceavo semestre\\proyecto terminal\\AppPT\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\erika\\Pictures\\telematica\\Onceavo semestre\\proyecto terminal\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
         "source": "C:\\Users\\erika\\Pictures\\telematica\\Onceavo semestre\\proyecto terminal\\AppPT\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     }

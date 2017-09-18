@@ -16,11 +16,23 @@
         "source": "C:\\Users\\pc\\.android\\build-cache\\f1338bbecc2c8a5a9c26429e4c651e05acd36e91\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
     },
     {
+        "merged": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\pc\\.android\\build-cache\\f1338bbecc2c8a5a9c26429e4c651e05acd36e91\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\pc\\.android\\build-cache\\f1338bbecc2c8a5a9c26429e4c651e05acd36e91\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
         "merged": "C:\\Users\\erika\\Pictures\\telematica\\Onceavo semestre\\proyecto terminal\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_appbar_state_list_animator.xml",
         "source": "C:\\Users\\erika\\.android\\build-cache\\50fc70cda4c0538e7f6237f4bac3de5afc5bb6df\\output\\res\\anim-v21\\design_appbar_state_list_animator.xml"
     },
     {
         "merged": "C:\\Users\\erika\\Pictures\\telematica\\Onceavo semestre\\proyecto terminal\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
         "source": "C:\\Users\\erika\\.android\\build-cache\\50fc70cda4c0538e7f6237f4bac3de5afc5bb6df\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_appbar_state_list_animator.xml",
+        "source": "C:\\Users\\pc\\.android\\build-cache\\f1338bbecc2c8a5a9c26429e4c651e05acd36e91\\output\\res\\anim-v21\\design_appbar_state_list_animator.xml"
     }
 ]

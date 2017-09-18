@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\pc\\.android\\build-cache\\09219873fd9a721e03835be866643cd14a5a3343\\output\\res\\layout-v16\\notification_template_custom_big.xml"
+    },
+    {
         "merged": "C:\\Users\\erika\\Pictures\\telematica\\Onceavo semestre\\proyecto terminal\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
         "source": "C:\\Users\\erika\\.android\\build-cache\\f3b7f56b6eddc42d992bb2dbbf368b8ac9cf52f5\\output\\res\\layout-v16\\notification_template_custom_big.xml"
     },

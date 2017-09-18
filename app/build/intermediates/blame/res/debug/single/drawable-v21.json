@@ -12,6 +12,10 @@
         "source": "C:\\Users\\pc\\.android\\build-cache\\339b33ce2776b801b35fccde9a6ce372cf717b50\\output\\res\\drawable-v21\\design_password_eye.xml"
     },
     {
+        "merged": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\pc\\.android\\build-cache\\09219873fd9a721e03835be866643cd14a5a3343\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
         "merged": "C:\\Users\\pc\\Documents\\Jair\\Proyecto Terminal\\SistemaMovil\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
         "source": "C:\\Users\\pc\\.android\\build-cache\\339b33ce2776b801b35fccde9a6ce372cf717b50\\output\\res\\drawable-v21\\avd_hide_password.xml"
     },
@@ -24,12 +28,28 @@
         "source": "C:\\Users\\pc\\.android\\build-cache\\09219873fd9a721e03835be866643cd14a5a3343\\output\\res\\drawable-v21\\notification_action_background.xml"
     },
     {
+        "merged": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\pc\\.android\\build-cache\\09219873fd9a721e03835be866643cd14a5a3343\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
         "merged": "C:\\Users\\pc\\Documents\\Jair\\Proyecto Terminal\\SistemaMovil\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
         "source": "C:\\Users\\pc\\.android\\build-cache\\339b33ce2776b801b35fccde9a6ce372cf717b50\\output\\res\\drawable-v21\\avd_show_password.xml"
     },
     {
+        "merged": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\pc\\.android\\build-cache\\f1338bbecc2c8a5a9c26429e4c651e05acd36e91\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+    },
+    {
         "merged": "C:\\Users\\erika\\Pictures\\telematica\\Onceavo semestre\\proyecto terminal\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
         "source": "C:\\Users\\erika\\.android\\build-cache\\f3b7f56b6eddc42d992bb2dbbf368b8ac9cf52f5\\output\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\pc\\.android\\build-cache\\09219873fd9a721e03835be866643cd14a5a3343\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\pc\\.android\\build-cache\\09219873fd9a721e03835be866643cd14a5a3343\\output\\res\\drawable-v21\\notification_action_background.xml"
     },
     {
         "merged": "C:\\Users\\erika\\Pictures\\telematica\\Onceavo semestre\\proyecto terminal\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",

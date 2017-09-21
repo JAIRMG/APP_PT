@@ -5,10 +5,65 @@
     tools:context="com.example.terminal.proyecto.apppt.Opcion_abierta">
 
     <!-- TODO: Update blank fragment layout -->
-    <Button
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="click 01"
-        android:id="@+id/button_1"/>
+        android:orientation="vertical"
+        android:gravity="center_vertical|center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/reactivo_abierta"
+            android:gravity="center_horizontal"
+            android:textSize="18dp"
+            android:text="Reactivo opción abierta"/>
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:id="@+id/bottom_panel"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true">
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#005960"
+                    android:textColor="@android:color/white"
+                    android:text="click 01"
+                    android:layout_gravity="center|bottom"
+                    android:id="@+id/button_1"/>
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+
 
 </FrameLayout>

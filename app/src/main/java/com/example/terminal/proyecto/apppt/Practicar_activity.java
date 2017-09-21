@@ -36,6 +36,9 @@ public class Practicar_activity extends AppCompatActivity implements sendData {
     Fragment result = new Resultados();
     private  int tipo;
 
+    public int[] arrayRandom = new int[10];
+    public int contFragments = 0;
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -51,14 +54,25 @@ public class Practicar_activity extends AppCompatActivity implements sendData {
         FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
         fragmentTransaction.replace(R.id.vtn_practicar, opc1).commit();
 
-
-
+        randomReactive();
     }
 
     public int random(){
         Random r = new Random();
         int i1 = r.nextInt(3) + 1;
         return i1;
+    }
+
+    public int[] randomReactive(){
+
+        int cont = 0;
+        Random r = new Random();
+
+        while (cont < 10){
+            arrayRandom[cont] = r.nextInt(3) + 1;
+            cont++;
+        }
+        return arrayRandom;
     }
 
     @Override
@@ -68,7 +82,7 @@ public class Practicar_activity extends AppCompatActivity implements sendData {
 
     @Override
     public void numero(int num, int random) {
-        x++;
+    /*    x++;
         tipo = random;
 
         numero.setText(Integer.toString(x));
@@ -99,7 +113,48 @@ public class Practicar_activity extends AppCompatActivity implements sendData {
 
 
         }
-
+*/
 
     }
+
+    @Override
+    public void numero2() {
+
+
+
+        switch (arrayRandom[contFragments]){
+
+            case 1:
+                FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+                fragmentTransaction.replace(R.id.vtn_practicar, opc1).commit();
+                Log.i("randomm","posición"+contFragments);
+                contFragments ++;
+                break;
+            case 2:
+                FragmentTransaction fragmentTransaction2 = getSupportFragmentManager().beginTransaction();
+                fragmentTransaction2.replace(R.id.vtn_practicar, opc2).commit();
+                Log.i("randomm","posición"+contFragments);
+                contFragments ++;
+                break;
+            case 3:
+                FragmentTransaction fragmentTransaction3 = getSupportFragmentManager().beginTransaction();
+                fragmentTransaction3.replace(R.id.vtn_practicar, opc3).commit();
+                Log.i("randomm","posición"+contFragments);
+                contFragments ++;
+                break;
+
+            default:
+                Log.i("error","error");
+
+        }
+        if(contFragments == 10){
+            FragmentTransaction fragmentTransaction3 = getSupportFragmentManager().beginTransaction();
+            fragmentTransaction3.replace(R.id.vtn_practicar, result).commit();
+
+
+        }
+
+    }
+
+
 }

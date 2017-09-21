@@ -7,4 +7,6 @@ package com.example.terminal.proyecto.apppt;
 public interface sendData {
     public void init (int num, int random);
     public void numero (int num, int random);
+    public void numero2();
 }
+

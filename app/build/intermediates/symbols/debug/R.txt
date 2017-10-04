@@ -821,7 +821,7 @@ int drawable notification_template_icon_low_bg 0x7f020088
 int drawable notification_tile_bg 0x7f020085
 int drawable notify_panel_notification_icon_bg 0x7f020086
 int id Aceptar 0x7f0c00d0
-int id Exp1 0x7f0c0105
+int id Exp1 0x7f0c0102
 int id action0 0x7f0c00e9
 int id action_bar 0x7f0c0075
 int id action_bar_activity_content 0x7f0c0000
@@ -895,7 +895,7 @@ int id contraseniaEtiqueta 0x7f0c00df
 int id contraseña 0x7f0c0089
 int id correo 0x7f0c009b
 int id correoEtiqueta 0x7f0c009a
-int id curso 0x7f0c0107
+int id curso 0x7f0c0104
 int id custom 0x7f0c0066
 int id customPanel 0x7f0c0065
 int id decor_content_parent 0x7f0c0073
@@ -911,7 +911,6 @@ int id edad 0x7f0c00a1
 int id edadEtiqueta 0x7f0c00a0
 int id editContrasenia 0x7f0c00e1
 int id edit_query 0x7f0c0077
-int id empezarPractica 0x7f0c0104
 int id end 0x7f0c0030
 int id end_padder 0x7f0c00fc
 int id enterAlways 0x7f0c001f
@@ -940,9 +939,9 @@ int id image 0x7f0c0057
 int id imageView 0x7f0c00d7
 int id imageView2 0x7f0c00fd
 int id info 0x7f0c00f3
-int id informacion 0x7f0c0109
+int id informacion 0x7f0c0106
 int id ingresaCorreoEtiqueta 0x7f0c008e
-int id inicio 0x7f0c0106
+int id inicio 0x7f0c0103
 int id inline 0x7f0c004c
 int id item_touch_helper_previous_elevation 0x7f0c0005
 int id large 0x7f0c0050
@@ -1000,7 +999,7 @@ int id parentPanel 0x7f0c005e
 int id passwordLogin 0x7f0c0086
 int id pieChart 0x7f0c00d6
 int id pin 0x7f0c0037
-int id practicar 0x7f0c0108
+int id practicar 0x7f0c0105
 int id profile_image 0x7f0c00fe
 int id progress_bar 0x7f0c00ae
 int id progress_circular 0x7f0c0006
@@ -1072,8 +1071,6 @@ int id topPanel 0x7f0c0067
 int id touch_outside 0x7f0c00bb
 int id transition_current_scene 0x7f0c0009
 int id transition_scene_layoutid_cache 0x7f0c000a
-int id txt_num 0x7f0c0101
-int id txt_random 0x7f0c0102
 int id unknown 0x7f0c0048
 int id up 0x7f0c000b
 int id useLogo 0x7f0c001e
@@ -1082,7 +1079,7 @@ int id usuarioEtiqueta 0x7f0c0097
 int id verdadero 0x7f0c00ce
 int id view_offset_helper 0x7f0c000c
 int id viewpager 0x7f0c00ff
-int id vtn_practicar 0x7f0c0103
+int id vtn_practicar 0x7f0c0101
 int id withText 0x7f0c0043
 int id wrap 0x7f0c000f
 int id wrap_content 0x7f0c002a

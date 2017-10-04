@@ -3435,7 +3435,7 @@ containing a value of this type.
     }
     public static final class id {
         public static final int Aceptar=0x7f0c00d0;
-        public static final int Exp1=0x7f0c0105;
+        public static final int Exp1=0x7f0c0102;
         public static final int action0=0x7f0c00e9;
         public static final int action_bar=0x7f0c0075;
         public static final int action_bar_activity_content=0x7f0c0000;
@@ -3509,7 +3509,7 @@ containing a value of this type.
         public static final int contraseña=0x7f0c0089;
         public static final int correo=0x7f0c009b;
         public static final int correoEtiqueta=0x7f0c009a;
-        public static final int curso=0x7f0c0107;
+        public static final int curso=0x7f0c0104;
         public static final int custom=0x7f0c0066;
         public static final int customPanel=0x7f0c0065;
         public static final int decor_content_parent=0x7f0c0073;
@@ -3525,7 +3525,6 @@ containing a value of this type.
         public static final int edadEtiqueta=0x7f0c00a0;
         public static final int editContrasenia=0x7f0c00e1;
         public static final int edit_query=0x7f0c0077;
-        public static final int empezarPractica=0x7f0c0104;
         public static final int end=0x7f0c0030;
         public static final int end_padder=0x7f0c00fc;
         public static final int enterAlways=0x7f0c001f;
@@ -3554,9 +3553,9 @@ containing a value of this type.
         public static final int imageView=0x7f0c00d7;
         public static final int imageView2=0x7f0c00fd;
         public static final int info=0x7f0c00f3;
-        public static final int informacion=0x7f0c0109;
+        public static final int informacion=0x7f0c0106;
         public static final int ingresaCorreoEtiqueta=0x7f0c008e;
-        public static final int inicio=0x7f0c0106;
+        public static final int inicio=0x7f0c0103;
         public static final int inline=0x7f0c004c;
         public static final int item_touch_helper_previous_elevation=0x7f0c0005;
         public static final int large=0x7f0c0050;
@@ -3614,7 +3613,7 @@ containing a value of this type.
         public static final int passwordLogin=0x7f0c0086;
         public static final int pieChart=0x7f0c00d6;
         public static final int pin=0x7f0c0037;
-        public static final int practicar=0x7f0c0108;
+        public static final int practicar=0x7f0c0105;
         public static final int profile_image=0x7f0c00fe;
         public static final int progress_bar=0x7f0c00ae;
         public static final int progress_circular=0x7f0c0006;
@@ -3686,8 +3685,6 @@ containing a value of this type.
         public static final int touch_outside=0x7f0c00bb;
         public static final int transition_current_scene=0x7f0c0009;
         public static final int transition_scene_layoutid_cache=0x7f0c000a;
-        public static final int txt_num=0x7f0c0101;
-        public static final int txt_random=0x7f0c0102;
         public static final int unknown=0x7f0c0048;
         public static final int up=0x7f0c000b;
         public static final int useLogo=0x7f0c001e;
@@ -3696,7 +3693,7 @@ containing a value of this type.
         public static final int verdadero=0x7f0c00ce;
         public static final int view_offset_helper=0x7f0c000c;
         public static final int viewpager=0x7f0c00ff;
-        public static final int vtn_practicar=0x7f0c0103;
+        public static final int vtn_practicar=0x7f0c0101;
         public static final int withText=0x7f0c0043;
         public static final int wrap=0x7f0c000f;
         public static final int wrap_content=0x7f0c002a;

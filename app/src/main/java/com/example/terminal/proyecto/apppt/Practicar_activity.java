@@ -74,8 +74,8 @@ public class Practicar_activity extends AppCompatActivity implements sendData {
         setContentView(R.layout.practicar_activity);
 
 
-        numero = (TextView) findViewById(R.id.txt_num);
-        numrandom = (TextView) findViewById(R.id.txt_random);
+       // numero = (TextView) findViewById(R.id.txt_num);
+        //numrandom = (TextView) findViewById(R.id.txt_random);
 
         //Recuperando el subtema
         Intent intent= getIntent();

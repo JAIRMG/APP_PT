@@ -54,17 +54,9 @@ public class Practicar_practica extends Fragment {
         listAdapter = new ExpandableListAdapter(getActivity(), listDataHeader, listHash);
         expandableListView.setAdapter(listAdapter);
 
-        button = (Button) getView().findViewById(R.id.empezarPractica);
+        //button = (Button) getView().findViewById(R.id.empezarPractica);
 
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent;
-                intent = new Intent(getActivity(), Practicar_activity.class);
-                startActivity(intent);
 
-            }
-        });
 
 
         expandableListView

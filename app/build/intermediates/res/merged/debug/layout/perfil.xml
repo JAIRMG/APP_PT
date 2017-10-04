@@ -16,13 +16,23 @@
             android:layout_width="match_parent"
             android:layout_height="90dp"
             android:background="#eff0f0"/>
-        <ImageView
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/alberteinstein"
+            android:padding="10dip"
+            app:civ_border_width="1dp"
+            app:civ_border_color="#000000"/>
+      <!--  <ImageView
             android:id="@+id/imageView3"
             android:layout_width="70dp"
             android:layout_height="80dp"
             android:layout_gravity="center_vertical|bottom"
             android:padding="12dip"
-            app:srcCompat="@android:color/holo_green_light" />
+            app:srcCompat="@android:color/holo_green_light"/> -->
+
 
         <android.support.v4.view.ViewPager
             android:id="@+id/viewpager"

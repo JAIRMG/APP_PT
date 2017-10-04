@@ -5,7 +5,13 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.BitmapShader;
+import android.graphics.Canvas;
 import android.graphics.Color;
+import android.graphics.Paint;
+import android.graphics.RectF;
+import android.graphics.Shader;
+import android.graphics.drawable.BitmapDrawable;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -54,6 +60,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.StringTokenizer;
 
+import de.hdodenhof.circleimageview.CircleImageView;
+
 import static com.example.terminal.proyecto.apppt.R.layout.activity_menu;
 import static com.example.terminal.proyecto.apppt.R.layout.design_menu_item_action_area;
 import static com.example.terminal.proyecto.apppt.R.layout.perfil;
@@ -93,9 +101,10 @@ public class Perfil_fragment extends Fragment {
         View rootView = inflater.inflate(R.layout.perfil, container, false);
 
         firstViewPager = (ViewPager) rootView.findViewById(R.id.viewpager);
-
         tabLayout = (TabLayout) rootView.findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(firstViewPager);
+
+        //Set Einstein image https://github.com/hdodenhof/CircleImageView
 
         setupViewPager(firstViewPager);
         return rootView;
@@ -108,6 +117,17 @@ public class Perfil_fragment extends Fragment {
         adapter.addFragment(new Graficas(), "Estadísticas");
         adapter.addFragment(new Logros(), "Logros");
         viewPager.setAdapter(adapter);
+    }
+
+    public static Bitmap generateBorders(ImageView imageView){
+        Bitmap mbitmap = ((BitmapDrawable) imageView.getDrawable()).getBitmap();
+        Bitmap imageRounded = Bitmap.createBitmap(mbitmap.getWidth(), mbitmap.getHeight(), mbitmap.getConfig());
+        Canvas canvas = new Canvas(imageRounded);
+        Paint mpaint = new Paint();
+        mpaint.setAntiAlias(true);
+        mpaint.setShader(new BitmapShader(mbitmap, Shader.TileMode.CLAMP, Shader.TileMode.CLAMP));
+        canvas.drawRoundRect((new RectF(0, 0, mbitmap.getWidth(), mbitmap.getHeight())), 100, 100, mpaint);// Round Image Corner 100 100 100 100
+        return imageRounded;
     }
 
     @Override

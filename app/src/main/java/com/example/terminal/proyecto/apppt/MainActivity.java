@@ -70,13 +70,13 @@ public class MainActivity extends AppCompatActivity  {
         context = this;
         getApplicationContext();
         callbackManager = CallbackManager.Factory.create();
-        LoginButton loginButton = (LoginButton) findViewById(R.id.login_button);
+       // LoginButton loginButton = (LoginButton) findViewById(R.id.login_button);
         botonLogin = (Button) findViewById(R.id.button);
         nombreLogin = (EditText) findViewById(R.id.nombreLogin);
         passwordLogin = (EditText) findViewById(R.id.passwordLogin);
 
 
-        loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
+    /*    loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
 
             @Override
             public void onSuccess(LoginResult loginResult) {
@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity  {
             public void onError(FacebookException error) {
 
             }
-        });
+        }); */
 
 
         botonLogin.setOnClickListener(new View.OnClickListener(){

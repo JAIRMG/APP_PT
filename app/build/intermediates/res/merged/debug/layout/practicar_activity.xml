@@ -5,7 +5,7 @@
     >
 
 
-    <TextView
+   <!-- <TextView
         android:id="@+id/txt_num"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Texto2"/>
+        android:text="Texto2"/> -->
     <RelativeLayout
         android:id="@+id/vtn_practicar"
         android:layout_width="match_parent"

@@ -52,14 +52,14 @@
                     android:layout_below="@+id/nombreLogin"
                     android:layout_marginTop="16dp" />
 
-                <com.facebook.login.widget.LoginButton
+               <!-- <com.facebook.login.widget.LoginButton
                     android:id="@+id/login_button"
                     android:layout_width="300dp"
                     android:layout_height="40dp"
                     android:layout_marginBottom="15dp"
                     android:layout_marginTop="30dp"
                     android:layout_below="@+id/passwordLogin"
-                    android:layout_centerHorizontal="true"/>
+                    android:layout_centerHorizontal="true"/> -->
 
 
             </LinearLayout>

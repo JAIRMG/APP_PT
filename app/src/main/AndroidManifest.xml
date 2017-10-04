@@ -32,6 +32,7 @@
         <activity android:name=".password" />
         <activity android:name=".Menu"></activity>
         <activity android:name=".Practicar_activity"></activity>
+        <activity android:name=".Curso_activity"></activity>
     </application>
 
 </manifest>

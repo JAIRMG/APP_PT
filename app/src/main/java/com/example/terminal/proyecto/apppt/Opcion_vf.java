@@ -37,7 +37,7 @@ public class Opcion_vf extends Fragment {
             @Override
             public void onClick(View view) {
                 Activity miactividad = getActivity();
-                ((sendData)miactividad).numero(0, random());
+                ((sendData)miactividad).numero2();
             }
         });
 

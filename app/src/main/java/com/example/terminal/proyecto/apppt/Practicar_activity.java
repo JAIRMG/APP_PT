@@ -24,8 +24,10 @@ import android.widget.Toast;
 import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.JsonObjectRequest;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -47,6 +49,7 @@ public class Practicar_activity extends AppCompatActivity implements sendData {
     Context context;
     private int x;
     final String json_url = "http://192.168.1.77/getDatos.php/";
+    final String json_remore_url = "http://myappmate.000webhostapp.com/sendDatos.php/?abierta=3&multiple=4&vf=3";
     Fragment opc1 = new Opcion_abierta();
     Fragment opc2 = new Opcion_multiple();
     Fragment opc3 = new Opcion_vf();
@@ -62,6 +65,9 @@ public class Practicar_activity extends AppCompatActivity implements sendData {
     public int multiple = 0;
     public int vf = 0;
     public int[] arrayRandom = new int[10];
+    public int[] temporal_entrega = {1,1,2,2,2,2,3,3,3,3}; //el último 3 no importa porque se mete un uno manual al principio pero tenemos que llegar a 10
+    public String[] php_reactivos = new String[10];
+    public String[] php_respuestas = new String[10];
     public int contFragments = 0;
 
 
@@ -227,27 +233,44 @@ public class Practicar_activity extends AppCompatActivity implements sendData {
     public void jsonConnection_first(String grado, String nivel, String subtema, String tipo, String flag){
 
         Log.i("Duplicate: ", "abierta: "+abierta+ " multiple: "+multiple +" vf: "+vf);
-        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.POST,json_url+"?"+"subtema="+subtema+"&"+"grado="+grado+"&nivel="+nivel,
-
-                new Response.Listener<JSONObject>() {
+        JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(Request.Method.GET,json_remore_url,
+//json_url+"?"+"subtema="+subtema+"&"+"grado="+grado+"&nivel="+nivel
+                    new Response.Listener<JSONArray>() {
 
                     @Override
-                    public void onResponse(JSONObject response) {
-
+                    public void onResponse(JSONArray response) {
+                        Log.i("response_length", response.length()+"");
                         try {
-                            reactivo = response.getString("reactivo");
-                            respuesta = response.getString("respuesta");
+
+                            for (int i=0; i<response.length(); i++) {
+                                JSONObject actor = response.getJSONObject(i);
+                                php_reactivos[i] = actor.getString("reactivo");
+                                php_respuestas[i] = actor.getString("respuesta");
+                            }
+                            //reactivo = response.getString("reactivo");
+                            //respuesta = response.getString("respuesta");
                             /*incorrecta1 = response.getString("incorrecta1");
                             incorrecta2 = response.getString("incorrecta2");
                             incorrecta3 = response.getString("incorrecta3");*/
 
+                            for(int i=0; i<10; i++){
+                            Log.i("new_response", php_reactivos[i]);}
 
+                            StringBuilder sb_reactivos = new StringBuilder();
+                            StringBuilder sb_respuestas = new StringBuilder();
+                            for (int i = 0; i < 10; i++) {
+                                sb_reactivos.append(php_reactivos[i]).append(",");
+                                sb_respuestas.append(php_respuestas[i]).append(",");
+                            }
 
                             SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
                             SharedPreferences.Editor editor = preferences.edit();
-                            editor.putString("reactivo_abierta",reactivo);
+                            editor.putString("REACTIVOS",sb_reactivos.toString());
+                            editor.putString("RESPUESTAS",sb_respuestas.toString());
+                            editor.putInt("INDEX",0);
                             editor.apply();
                             //opc1.setArguments(arguments);
+
                             FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
                             fragmentTransaction.replace(R.id.vtn_practicar, opc1).commit();
 
@@ -264,7 +287,7 @@ public class Practicar_activity extends AppCompatActivity implements sendData {
             }
         });
 
-        MySingleton.getInstance(context).add7oRequestQue(jsonObjectRequest);
+        MySingleton.getInstance(context).add7oRequestQue(jsonArrayRequest);
 
     }
 
@@ -273,7 +296,7 @@ public class Practicar_activity extends AppCompatActivity implements sendData {
     @Override
     public void numero2() {
 
-        //jsonConnection();
+
 
 
         Toast.makeText(this, reactivo + respuesta,
@@ -283,24 +306,45 @@ public class Practicar_activity extends AppCompatActivity implements sendData {
         switch (arrayRandom[contFragments]){
 
             case 1:
-                FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-                fragmentTransaction.replace(R.id.vtn_practicar, opc1).commit();
                 Log.i("randomm","posición"+contFragments);
                 contFragments ++;
+                SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
+                SharedPreferences.Editor editor;
+                editor = preferences.edit();
+                editor.putInt("INDEX", contFragments);
+                editor.apply();
+                Log.i("ahora_index", preferences.getInt("INDEX",0)+"");
+                FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+                ft.replace(R.id.vtn_practicar, new Opcion_abierta(), "opc1");
+                ft.commit();
+                Log.i("index_practicar", contFragments + "");
+
                 break;
             case 2:
+                Log.i("randomm","posición"+contFragments);
+                jsonConnection("1","1",subtema,"abierta","1");
+                contFragments ++;
+                SharedPreferences preferences2 = PreferenceManager.getDefaultSharedPreferences(context);
+                SharedPreferences.Editor editor2;
+                editor2 = preferences2.edit();
+                editor2.putInt("INDEX", contFragments);
+                editor2.apply();
+                Log.i("ahora_index", contFragments+"");
                 FragmentTransaction fragmentTransaction2 = getSupportFragmentManager().beginTransaction();
                 fragmentTransaction2.replace(R.id.vtn_practicar, opc2).commit();
-                Log.i("randomm","posición"+contFragments);
-                jsonConnection("1","1",subtema,"abierta","1");
-                contFragments ++;
                 break;
             case 3:
-                FragmentTransaction fragmentTransaction3 = getSupportFragmentManager().beginTransaction();
-                fragmentTransaction3.replace(R.id.vtn_practicar, opc3).commit();
                 Log.i("randomm","posición"+contFragments);
                 jsonConnection("1","1",subtema,"abierta","1");
                 contFragments ++;
+                SharedPreferences preferences3 = PreferenceManager.getDefaultSharedPreferences(context);
+                SharedPreferences.Editor editor3;
+                editor3 = preferences3.edit();
+                editor3.putInt("INDEX", contFragments);
+                editor3.apply();
+                Log.i("ahora_index", contFragments+"");
+                FragmentTransaction fragmentTransaction3 = getSupportFragmentManager().beginTransaction();
+                fragmentTransaction3.replace(R.id.vtn_practicar, opc3).commit();
                 break;
 
             default:
@@ -308,9 +352,13 @@ public class Practicar_activity extends AppCompatActivity implements sendData {
 
         }
         if(contFragments == 10){
+            SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
+            SharedPreferences.Editor editor;
+            editor = preferences.edit();
+            editor.putInt("INDEX", 0);
+            editor.commit();
             FragmentTransaction fragmentTransaction3 = getSupportFragmentManager().beginTransaction();
             fragmentTransaction3.replace(R.id.vtn_practicar, result).commit();
-
 
         }
 

@@ -15,6 +15,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.Random;
 
@@ -30,6 +31,7 @@ public class Opcion_abierta extends Fragment {
     EditText editText;
     String respuesta = "kk";
     String reactivo = "kk";
+    public String[] php_reactivos = new String[10];
 
     public Opcion_abierta() {
         // Required empty public constructor
@@ -40,11 +42,8 @@ public class Opcion_abierta extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
+
         opcbierta = inflater.inflate(R.layout.fragment_opcion_abierta, container, false);
-
-
-
-
         // Inflate the layout for this fragment
         return opcbierta;
     }
@@ -52,28 +51,13 @@ public class Opcion_abierta extends Fragment {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        textView = (TextView) opcbierta.findViewById(R.id.reactivo_abierta);
-        editText = (EditText) opcbierta.findViewById(R.id.respuesta);
-
-        click01 = (Button) opcbierta.findViewById(R.id.button_1);
 
 
-        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getActivity());
-        reactivo = preferences.getString("reactivo_abierta", "");
-        Log.i("reactivo_abierta",reactivo);
-        textView.setText(reactivo);
+    }
 
-
-        click01.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Activity miactividad = getActivity();
-                ((sendData)miactividad).numero2();
-
-
-            }
-        });
-
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
 
     }
 
@@ -83,5 +67,37 @@ public class Opcion_abierta extends Fragment {
         return i1;
     }
 
+    @Override
+    public void onResume() {
+        super.onResume();
 
+        textView = (TextView) opcbierta.findViewById(R.id.reactivo_abierta);
+        editText = (EditText) opcbierta.findViewById(R.id.respuesta);
+        click01 = (Button) opcbierta.findViewById(R.id.button_1);
+
+
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getActivity());
+        reactivo = preferences.getString("REACTIVOS", "");
+        php_reactivos = reactivo.split(",");
+        for (int i = 0; i < 10; i++) {
+            Log.i("reactivos_recuperados", php_reactivos[i]);
+        }
+        Log.i("index_abierta",  "");
+        textView.setText(php_reactivos[preferences.getInt("INDEX",0)]);
+
+        click01.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.i("click", "dio click en next");
+                Activity miactividad = getActivity();
+                ((sendData)miactividad).numero2();
+
+
+            }
+        });
+
+
+
+
+    }
 }

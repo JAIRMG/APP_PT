@@ -20,12 +20,12 @@
         "source": "C:\\Users\\pc\\.android\\build-cache\\f1338bbecc2c8a5a9c26429e4c651e05acd36e91\\output\\res\\layout\\design_layout_tab_text.xml"
     },
     {
-        "merged": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_round.xml",
-        "source": "C:\\Users\\pc\\.android\\build-cache\\fc1878e1ee487a944efb0e8fe588286e1f95f613\\output\\res\\layout\\messenger_button_send_white_round.xml"
-    },
-    {
         "merged": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
         "source": "C:\\Users\\pc\\.android\\build-cache\\f1338bbecc2c8a5a9c26429e4c651e05acd36e91\\output\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_round.xml",
+        "source": "C:\\Users\\pc\\.android\\build-cache\\fc1878e1ee487a944efb0e8fe588286e1f95f613\\output\\res\\layout\\messenger_button_send_white_round.xml"
     },
     {
         "merged": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",

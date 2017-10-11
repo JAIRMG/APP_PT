@@ -53,7 +53,7 @@ public class Logros extends Fragment {
                 switch (position) {
                     case 0:
                         AlertDialog.Builder alertDialog2 = new AlertDialog.Builder(getActivity());
-                        alertDialog.setTitle("¡Heeey!").show();
+                        alertDialog.setTitle("¡Hola from Alex!").show();
                         alertDialog.setMessage("¡Esta insignia va de nuestra parte!");
                         break;
                     case 1:

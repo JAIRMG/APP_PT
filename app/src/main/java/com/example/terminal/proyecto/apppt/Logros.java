@@ -53,35 +53,43 @@ public class Logros extends Fragment {
                 switch (position) {
                     case 0:
                         AlertDialog.Builder alertDialog2 = new AlertDialog.Builder(getActivity());
-                        alertDialog.setTitle("¡Hola from Alex!").show();
-                        alertDialog.setMessage("¡Esta insignia va de nuestra parte!");
+                        alertDialog2.setMessage("¡Esta insignia va de nuestra parte!");
+                        alertDialog2.setTitle("¡Hola!").show();
                         break;
                     case 1:
                         alertDialog.setMessage("Necesitas 100 puntos para desbloquear esta insignia");
+                        alertDialog.setTitle("Ups").show();
                         break;
                     case 2:
                         alertDialog.setMessage("Necesitas 150 puntos para desbloquear esta insignia");
+                        alertDialog.setTitle("Ups").show();
                         break;
                     case 3:
                         alertDialog.setMessage("Necesitas 200 puntos para desbloquear esta insignia");
+                        alertDialog.setTitle("Ups").show();
                         break;
                     case 4:
                         alertDialog.setMessage("Necesitas 250 puntos para desbloquear esta insignia");
+                        alertDialog.setTitle("Ups").show();
                         break;
                     case 5:
                         alertDialog.setMessage("Necesitas 300 puntos para desbloquear esta insignia");
+                        alertDialog.setTitle("Ups").show();
                         break;
                     case 6:
                         alertDialog.setMessage("Necesitas 350 puntos para desbloquear esta insignia");
+                        alertDialog.setTitle("Ups").show();
                         break;
                     case 7:
                         alertDialog.setMessage("Necesitas 400 puntos para desbloquear esta insignia");
+                        alertDialog.setTitle("Ups").show();
                         break;
                     case 8:
                         alertDialog.setMessage("Necesitas 450 puntos para desbloquear esta insignia");
+                        alertDialog.setTitle("Ups").show();
                         break;
                 }
-                alertDialog.setTitle("Ups").show();
+
             }
         });
 

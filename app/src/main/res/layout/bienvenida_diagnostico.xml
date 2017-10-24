@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.terminal.proyecto.apppt.Diagnostico.Diagnostico_bienvenida_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical|center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/reactivo_abierta"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:textSize="18dp"
+            android:text="BIENVENIDO AL DIAGNÓSTICO"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:id="@+id/bottom_panel"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true">
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#005960"
+                    android:textColor="@android:color/white"
+                    android:text="click 01"
+                    android:layout_gravity="center|bottom"
+                    android:id="@+id/comenzar_diagnostico"/>
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

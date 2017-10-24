@@ -1,5 +1,8 @@
 package com.example.terminal.proyecto.apppt;
 
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -7,16 +10,19 @@ import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
-import android.support.v4.app.DialogFragment;
-import android.support.v4.app.FragmentActivity;
 import android.support.design.widget.BottomNavigationView;
 
-import com.example.terminal.proyecto.apppt.Perfil_fragment;
+import com.example.terminal.proyecto.apppt.Diagnostico.Diagnostico;
+
+import java.util.ArrayList;
 
 
 public class Menu extends AppCompatActivity {
 
+    final String jsonRemoteUrl = "http://myappmate.000webhostapp.com/sendDatos.php/?abierta=3&multiple=4&vf=3";
     private BottomNavigationView bottomNavigationView;
+    ArrayList<String> arrayList = new ArrayList<String>();
+    String a = "jaja";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,9 +41,17 @@ public class Menu extends AppCompatActivity {
 
         }
 
+        // -------------------Diagnóstico------------------//
+        Boolean revisaDiagnostico = checkDiagnostico();
+        if(!revisaDiagnostico){
+            Intent intent;
+            intent = new Intent(this, Diagnostico.class);
+            startActivity(intent);
+        }
+
+
+
         bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottomNavigationView);
-
-
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -61,5 +75,14 @@ public class Menu extends AppCompatActivity {
             }
         });
 
+    }
+
+
+
+    public Boolean checkDiagnostico(){
+
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
+        Boolean check = preferences.getBoolean("DIAGNOSTICO",false);
+        return check;
     }
 }

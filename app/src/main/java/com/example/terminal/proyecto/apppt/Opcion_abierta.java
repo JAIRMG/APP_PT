@@ -29,9 +29,10 @@ public class Opcion_abierta extends Fragment {
     View opcbierta;
     TextView textView;
     EditText editText;
-    String respuesta = "kk";
-    String reactivo = "kk";
-    public String[] php_reactivos = new String[10];
+    public String[] reactivos_diagnostico = new String[20];
+    public String[] respuestas_diagnostico = new String[20];
+    String reactivo;
+    String Answer; //Este string contiene a la respuesta correcta
 
     public Opcion_abierta() {
         // Required empty public constructor
@@ -44,60 +45,79 @@ public class Opcion_abierta extends Fragment {
 
 
         opcbierta = inflater.inflate(R.layout.fragment_opcion_abierta, container, false);
-        // Inflate the layout for this fragment
+        click01 = (Button) opcbierta.findViewById(R.id.button_1);
+        textView = (TextView) opcbierta.findViewById(R.id.reactivo_abierta);
+        editText = (EditText) opcbierta.findViewById(R.id.respuesta);
+
+        if(!checkDiagnostico()){ //Checamos que este resolviendo el diagnostico
+
+            // Log.i("index_diag", ""+preferences.getInt("INDEX_DIAGNOSTICO",0));
+            SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getActivity());
+            reactivo = preferences.getString("REACTIVOS_DIAGNOSTICO", "");
+            reactivos_diagnostico = reactivo.split("//");
+            //obtenemos las respuestas
+            reactivo = preferences.getString("RESPUESTAS_DIAGNOSTICO","");
+            respuestas_diagnostico = reactivo.split("//");
+            int i = preferences.getInt("INDEX_DIAGNOSTICO",0);
+            Log.i("index_diag", ""+i);
+            textView.setText(reactivos_diagnostico[i-1]);
+            Answer = respuestas_diagnostico[i-1];
+
+        }
+
+        click01.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                //Aquí tenemos que preguntar si se encuentra resolviendo diagnostico o no
+                checkAnswer(Answer);
+                //Llamar a la función que cambia de fragmento
+                Activity miactividad = getActivity();
+                ((sendData)miactividad).switchFragment();
+
+
+            }
+        });
+
         return opcbierta;
     }
 
-    @Override
-    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
 
 
-    }
-
-    @Override
-    public void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
-    }
-
-    public int random(){
-        Random r = new Random();
-        int i1 = r.nextInt(3) + 1;
-        return i1;
-    }
-
-    @Override
-    public void onResume() {
-        super.onResume();
-
-        textView = (TextView) opcbierta.findViewById(R.id.reactivo_abierta);
-        editText = (EditText) opcbierta.findViewById(R.id.respuesta);
-        click01 = (Button) opcbierta.findViewById(R.id.button_1);
-
-
-        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getActivity());
+        /* SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getActivity());
         reactivo = preferences.getString("REACTIVOS", "");
         php_reactivos = reactivo.split(",");
         for (int i = 0; i < 10; i++) {
             Log.i("reactivos_recuperados", php_reactivos[i]);
         }
         Log.i("index_abierta",  "");
-        textView.setText(php_reactivos[preferences.getInt("INDEX",0)]);
-
-        click01.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Log.i("click", "dio click en next");
-                Activity miactividad = getActivity();
-                ((sendData)miactividad).numero2();
+        textView.setText(php_reactivos[preferences.getInt("INDEX",0)]); */
 
 
-            }
-        });
+    public Boolean checkDiagnostico(){
 
-
-
-
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getActivity());
+        Boolean check = preferences.getBoolean("DIAGNOSTICO",false);
+        return check;
     }
+
+    public void checkAnswer(String answer){
+
+        if(editText.getText().toString().equals(answer)){
+            Toast.makeText(getActivity(),"Correcto" + answer +" : " + editText.getText().toString(), Toast.LENGTH_LONG).show();
+            increasePoints();
+        } else {
+            Toast.makeText(getActivity(),"Incorrecto" + answer +" : " + editText.getText().toString(), Toast.LENGTH_LONG).show();
+        }
+    }
+    public void increasePoints(){
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getActivity());
+        int puntos = preferences.getInt("PUNTAJE_GENERAL", 0);
+        puntos = puntos + 10;
+        SharedPreferences.Editor editor;
+        editor = preferences.edit();
+        editor.putInt("PUNTAJE_GENERAL", puntos);
+        editor.apply();
+    }
+
 }

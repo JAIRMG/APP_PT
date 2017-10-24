@@ -4,6 +4,14 @@
         "source": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\lannister.png",
+        "source": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\src\\main\\res\\mipmap-hdpi\\lannister.png"
+    },
+    {
+        "merged": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\house.png",
+        "source": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\src\\main\\res\\mipmap-hdpi\\house.png"
+    },
+    {
         "merged": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\alberteinstein.png",
         "source": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\src\\main\\res\\mipmap-hdpi\\alberteinstein.png"
     },

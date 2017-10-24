@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml:2:1-38:12
+ADDED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml:2:1-39:12
 	package
 		ADDED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml:3:5-50
 		INJECTED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml
@@ -18,23 +18,23 @@ ADDED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml:6:5
 	android:name
 		ADDED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml:8:5-81
+ADDED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml:8:5-65
 	android:name
 		ADDED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml:8:22-62
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml:9:5-96
+ADDED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml:9:5-80
 	android:name
 		ADDED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml:9:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml:10:5-97
+ADDED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml:10:5-81
 	android:name
 		ADDED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml:10:22-78
 uses-permission#android.permission.MEDIA_CONTENT_CONTROL
-ADDED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml:11:5-96
+ADDED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml:11:5-80
 	android:name
 		ADDED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml:11:22-77
 application
-ADDED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml:13:5-36:19
+ADDED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml:13:5-37:19
 MERGED from [com.facebook.android:facebook-android-sdk:4.27.0] C:\Users\pc\.android\build-cache\eda5e78802d8479b61db0e9557f9a02ca88651b4\output\AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-login:4.27.0] C:\Users\pc\.android\build-cache\3594cb9129254a6eff06e63d763a9a56c89afc7f\output\AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-share:4.27.0] C:\Users\pc\.android\build-cache\066df4e71fad8de7605021690b321d7807d70ebb\output\AndroidManifest.xml:28:5-29:19
@@ -71,7 +71,7 @@ MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\pc\.android\build-cach
 	android:theme
 		ADDED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml:19:9-40
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml:20:9-22:54
+ADDED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml:20:9-22:55
 	android:value
 		ADDED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml:22:13-52
 	android:name
@@ -99,17 +99,21 @@ ADDED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml:32:
 	android:name
 		ADDED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml:32:19-43
 activity#com.example.terminal.proyecto.apppt.Menu
-ADDED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml:33:9-51
+ADDED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml:33:9-42
 	android:name
 		ADDED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml:33:19-39
 activity#com.example.terminal.proyecto.apppt.Practicar_activity
-ADDED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml:34:9-65
+ADDED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml:34:9-56
 	android:name
 		ADDED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml:34:19-53
 activity#com.example.terminal.proyecto.apppt.Curso_activity
-ADDED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml:35:9-61
+ADDED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml:35:9-52
 	android:name
 		ADDED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml:35:19-49
+activity#com.example.terminal.proyecto.apppt.Diagnostico.Diagnostico
+ADDED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml:36:9-70
+	android:name
+		ADDED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml:36:19-58
 uses-sdk
 INJECTED from C:\Users\pc\Documents\Jair\AppPT\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.facebook.android:facebook-android-sdk:4.27.0] C:\Users\pc\.android\build-cache\eda5e78802d8479b61db0e9557f9a02ca88651b4\output\AndroidManifest.xml:24:5-26:41

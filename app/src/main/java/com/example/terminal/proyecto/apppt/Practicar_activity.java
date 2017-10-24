@@ -159,6 +159,11 @@ public class Practicar_activity extends AppCompatActivity implements sendData {
 
     }
 
+    @Override
+    public void switchFragment() {
+
+    }
+
     public void countRepeated(){
 
         int[] count = new int[3];
@@ -363,6 +368,7 @@ public class Practicar_activity extends AppCompatActivity implements sendData {
         }
 
     }
+
 
 
 }

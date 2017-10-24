@@ -43,6 +43,7 @@
         <activity android:name="com.example.terminal.proyecto.apppt.Menu" />
         <activity android:name="com.example.terminal.proyecto.apppt.Practicar_activity" />
         <activity android:name="com.example.terminal.proyecto.apppt.Curso_activity" />
+        <activity android:name="com.example.terminal.proyecto.apppt.Diagnostico.Diagnostico" />
         <activity
             android:name="com.facebook.FacebookActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"

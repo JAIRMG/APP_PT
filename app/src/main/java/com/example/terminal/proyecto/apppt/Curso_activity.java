@@ -112,6 +112,10 @@ public class Curso_activity extends AppCompatActivity implements sendData {
     }
 
     @Override
+    public void switchFragment() {
+
+    }
+    @Override
     public void init(int num, int random) {
 
     }
@@ -317,6 +321,7 @@ public class Curso_activity extends AppCompatActivity implements sendData {
         }
 
     }
+
 
 
 }

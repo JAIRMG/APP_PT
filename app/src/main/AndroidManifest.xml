@@ -5,11 +5,11 @@
     <!-- //facebook -->
     <uses-permission android:name="android.permission.INTERNET" />
     <!-- Cambiar imagen desde galería y cámara -->
-    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
-    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL"></uses-permission>
-    
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,7 +19,7 @@
         android:theme="@style/AppTheme">
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
-            android:value="@string/facebook_app_id"/>
+            android:value="@string/facebook_app_id" />
 
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -30,9 +30,10 @@
         </activity>
         <activity android:name=".registro" />
         <activity android:name=".password" />
-        <activity android:name=".Menu"></activity>
-        <activity android:name=".Practicar_activity"></activity>
-        <activity android:name=".Curso_activity"></activity>
+        <activity android:name=".Menu" />
+        <activity android:name=".Practicar_activity" />
+        <activity android:name=".Curso_activity" />
+        <activity android:name=".Diagnostico.Diagnostico"></activity>
     </application>
 
 </manifest>

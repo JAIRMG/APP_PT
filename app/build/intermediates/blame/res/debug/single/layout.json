@@ -20,16 +20,20 @@
         "source": "C:\\Users\\pc\\.android\\build-cache\\f1338bbecc2c8a5a9c26429e4c651e05acd36e91\\output\\res\\layout\\design_layout_tab_text.xml"
     },
     {
-        "merged": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
-        "source": "C:\\Users\\pc\\.android\\build-cache\\f1338bbecc2c8a5a9c26429e4c651e05acd36e91\\output\\res\\layout\\design_navigation_menu.xml"
-    },
-    {
         "merged": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_round.xml",
         "source": "C:\\Users\\pc\\.android\\build-cache\\fc1878e1ee487a944efb0e8fe588286e1f95f613\\output\\res\\layout\\messenger_button_send_white_round.xml"
     },
     {
+        "merged": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\pc\\.android\\build-cache\\f1338bbecc2c8a5a9c26429e4c651e05acd36e91\\output\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
         "merged": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
         "source": "C:\\Users\\pc\\.android\\build-cache\\09219873fd9a721e03835be866643cd14a5a3343\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_diagnostico.xml",
+        "source": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\src\\main\\res\\layout\\activity_diagnostico.xml"
     },
     {
         "merged": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
@@ -80,6 +84,10 @@
         "source": "C:\\Users\\pc\\.android\\build-cache\\09219873fd9a721e03835be866643cd14a5a3343\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
+        "merged": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bienvenida_diagnostico.xml",
+        "source": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\src\\main\\res\\layout\\bienvenida_diagnostico.xml"
+    },
+    {
         "merged": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
         "source": "C:\\Users\\pc\\.android\\build-cache\\f1338bbecc2c8a5a9c26429e4c651e05acd36e91\\output\\res\\layout\\design_menu_item_action_area.xml"
     },
@@ -114,6 +122,10 @@
     {
         "merged": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
         "source": "C:\\Users\\pc\\.android\\build-cache\\09219873fd9a721e03835be866643cd14a5a3343\\output\\res\\layout\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\layout\\image_profile_container.xml",
+        "source": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\src\\main\\res\\layout\\image_profile_container.xml"
     },
     {
         "merged": "C:\\Users\\pc\\Documents\\Jair\\AppPT\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
